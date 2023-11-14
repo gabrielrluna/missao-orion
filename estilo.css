@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&display=swap');
+
+html{
+    font-family: 'Alumni Sans Inline One', sans-serif;
+
+}
+
+body{
+    background-image: url(/imagens/gif-estrela.gif) ;
+
+}
+
+#principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.trunfo {
+    text-align: center;
+    margin: 5% 0 4% 0;
+
+}
+
+.trunfo img{
+    max-width: 500px;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    min-width: 40%;
+    
+
+}
+
+.menu div{
+    width: 80%;
+    height: 40px;
+    background-color: darkred;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 10px auto;
+    border-radius: 100px;
+}
+
+.menu a{
+    text-decoration: none;
+    color:yellow;
+    padding: 2% 25%;
+    font-size: 1.6em;
+}
+
+.menu div:hover{
+    background-color: darkblue;
+    transition: 0.4s;
+}
+
+@media screen and (max-width: 768px) {
+    #principal{
+        flex-direction: column;
+    }
+
+    .trunfo img{
+        max-width: 350px;
+        width: auto;
+        height: auto;
+    }
+    
+    .menu div{
+        width: 330px;
+        height: 40px;
+        margin: 5px auto;
+    }
+
+    .trunfo {
+        margin: 0 auto;
+    
+    }
+}
