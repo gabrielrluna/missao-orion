@@ -31,10 +31,15 @@ body{
     height: auto;
 }
 
+.trunfo_tec{
+    display: flex;
+    justify-content: space-around;
+}
 
-
-
-
+.trunfo_tec img{
+    width: auto;
+    height: 500px;
+}
 
 .menu {
     display: flex;
@@ -67,6 +72,68 @@ body{
     background-color: darkblue;
     transition: 0.4s;
 }
+
+
+/* Equipe Técnica */
+
+.tec{
+    background-color: black;
+    opacity: 0.8;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.tec_fonte{
+    color: white;
+}
+
+/* Tabela de Pontuação */
+ .tabela{
+    text-align: center;
+ }
+
+ /* Programação */
+
+ .trunfo_prog {
+    margin: 3% auto;
+    width: 80%;
+    display: flex;
+
+}
+
+.trunfo_prog img{
+    width: auto;
+    height: 550px;
+}
+
+#confira{
+    color: white;
+    font-size: 100px;
+    text-align: center;
+}
+
+.blocos{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    margin: 0 auto;
+    justify-content: center;
+
+
+}
+
+.bloco{
+    background-color: black;
+    opacity: 0.8;
+    color: white;
+    text-align: center;
+
+    width: 100%;
+
+
+}
+
 
 @media screen and (max-width: 768px) {
     #principal{
