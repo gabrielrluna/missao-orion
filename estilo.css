@@ -10,8 +10,19 @@ body{
 
 }
 
-.voltar{
+.botao a{
     background-color: darkred;
+    max-width: 200px;
+    height: auto;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 100px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+
 }
 
 #principal{
@@ -167,6 +178,14 @@ iframe{
 
 }
 
+/* Mapa */
+
+.mapa{
+    width: 1000px;
+    height: 400px;
+    text-align: center;
+    margin: 10px auto;
+}
 
 @media screen and (max-width: 768px) {
     #principal{
@@ -231,4 +250,13 @@ iframe{
     
     
     }
+
+    /* mapa */
+    .mapa{
+        width: 90%;
+        height: auto;
+        text-align: center;
+        margin: 5px auto;
+    }
+    
 }
