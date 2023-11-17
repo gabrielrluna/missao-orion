@@ -73,6 +73,10 @@ body{
     transition: 0.4s;
 }
 
+iframe{
+    width: 700px;
+    height: 600px;
+}
 
 /* Equipe Técnica */
 
@@ -90,8 +94,10 @@ body{
 
 /* Tabela de Pontuação */
  .tabela{
+    margin: 0 auto;
     text-align: center;
- }
+
+}
 
  /* Programação */
 
